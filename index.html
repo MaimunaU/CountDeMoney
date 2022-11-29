@@ -1,0 +1,51 @@
+<!--Maimuna Ullah, Web Development Pd. 7/8 Odd, 11/28/22, Count de Money-->
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Up and Down</title>
+		<style></style>
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+	</head>
+		
+	<body onload = "initialize();">
+		<h1>Count de Money</h1>
+		<div class="grid">
+			<p><span id = "pennies"></span> pennies
+				<button onclick = "addOnePenny();">+</button> 
+				<button onclick = "subtractOnePenny();">-</button>
+				<br />
+				Value of pennies: <br />$<span id = "penniesValue"></span></p>
+
+			<p><span id = "nickels"></span> nickels
+				<button onclick = "addOneNickel();">+</button> 
+				<button onclick = "subtractOneNickel();">-</button>
+				<br />
+				Value of nickels: <br />$<span id = "nickelsValue"></span></p>
+
+			<p><span id = "dimes"></span> dimes
+				<button onclick = "addOneDime();">+</button> 
+				<button onclick = "subtractOneDime();">-</button>
+				<br />
+				Value of dimes: <br />$<span id = "dimesValue"></span></p>
+
+			<p><span id = "quarters"></span> quarters
+				<button onclick = "addOneQuarter();">+</button> 
+				<button onclick = "subtractOneQuarter();">-</button>
+				<br />
+				Value of quarters: <br />$<span id = "quartersValue"></span></p>
+			<p><span id = "halves"></span> half dollar coins
+				<button onclick = "addOneHalf();">+</button> 
+				<button onclick = "subtractOneHalf();">-</button>
+				<br />
+				Value of half dollar coins: <br />$<span id = "halvesValue"></span></p>
+			<p><span id = "dollars"></span> dollar coins
+				<button onclick = "addOneDollar();">+</button> 
+				<button onclick = "subtractOneDollar();">-</button>
+				<br />
+				Value of dollar coins: <br />$<span id = "dollarsValue"></span></p>
+		</div>
+            <h2>Total Amount: $<span id = "total"></span></h2>
+	</body>
+</html>

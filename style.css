@@ -1,0 +1,21 @@
+/*Maimuna Ullah, Web Development Pd. 7/8 Odd, 11/28/22, Count de Money*/
+
+body {
+    text-align: center;
+    background-color: #b9eab3;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+button {
+    background-color: #b8a9cf;
+    border: none;
+    border-radius: 30px;
+}
+
+h1, h2, p {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 50px;
+}
